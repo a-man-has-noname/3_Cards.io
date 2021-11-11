@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+h5{
+    font-weight: normal;
+    font-size: 15px;
+    padding: 15px 15px 15px 30px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.container{
+    width: 1440px;
+    height: 800px;
+    position: relative;
+    padding-top: 18.75%;
+    padding-bottom: 18.75%;
+}
+
+.left-container{
+    position: absolute;
+    left: 288px;
+    width: 20%;
+    height: 42.5%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0px 0px 15px;
+    color: white;
+    
+}
+
+.middle-container{
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    height: 42.5%;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.right-container{
+    position: absolute;
+    right: 20%;
+    width: 20%;
+    height: 42.5%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+}
+
+.desc-text{
+    text-align: left;
+    width: 75%;
+    padding-left: 10%;
+    font-size: 15px;
+}
+    
+.icons{
+    text-align: left;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+.btn-suvs{
+    width: 155px;
+    height: 50px;
+    background-color: white;
+    border-color: white;
+    text-decoration: none;
+    margin-top: 50%;
+    margin-left: 10%;
+    border-radius: 55px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury{
+    width: 155px;
+    height: 50px;
+    background-color: white;
+    border-color: white;
+    text-decoration: none;
+    margin-top: 50%;
+    margin-left: 10%;
+    border-radius: 55px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-sedans{
+    width: 155px;
+    height: 50px;
+    background-color: white;
+    border-color: white;
+    text-decoration: none;
+    margin-top: 50%;
+    margin-left: 10%;
+    border-radius: 55px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    color: hsl(31, 77%, 52%);
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+.btn-suvs:hover{
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury:hover{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.btn-sedans:hover{
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
